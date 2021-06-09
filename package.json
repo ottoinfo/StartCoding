@@ -1,0 +1,14 @@
+{
+  "name": "startcoding",
+  "version": "1.0.0",
+  "description": "So a friend of mine wanted to start coding and was not sure where to start. He was debating about signing up for a `coding boot camp` and wanted to know which field, job position, languages to learn. This has not been the first friend, so it seemed like maybe I should create a starting point/resource for people trying to learn. This does NOT mean that this will work for all people or that you you need to learn or look into all the things I will touch on, but maybe it can help.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Otto <matt@ottoinfo.com> (http://ottoinfo.com/)",
+  "license": "MIT"
+}
