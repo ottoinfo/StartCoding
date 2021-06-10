@@ -2,7 +2,7 @@
 
 So a friend of mine wanted to start coding and was not sure where to start. He was debating about signing up for a `coding boot camp` and wanted to know which field, job position, languages to learn. This has not been the first friend, so it seemed like maybe I should create a starting point/resource for people trying to learn. This does NOT mean that this will work for all people or that you you need to learn or look into all the things I will touch on, but maybe it can help.
 
-# About ME
+# About Myself
 
 The reason why I will touch on this I think it maybe important to know my background. I was graduating college in 2006 for a BFA in photography and thought I needed to build a website/portfolio to showcase my photos. I chose to build it in FLASH ( language is dead and gone NOW ). As time went on people would say or ask "You know how to build websites, can I higher you?" From there I freelanced taking on small projects and moved to full time positions.
 

@@ -58,3 +58,10 @@ List all files ( hidden and human readable )
 
 # SSH into a machine
 
+# Ping that Machine exist
+`ping 192.168.1.149`
+
+# Try to Login ( fail no Username/Password )
+`ssh 192.168.1.149`
+
+# Try again

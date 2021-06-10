@@ -71,6 +71,11 @@ Public Private Protected
 
 Variables ( var, let, const )
 
+Types ( string, number, boolean, array, object )
+
+> var name: string = 'mike' 
+> var hasName: boolean = false
+
 Closures
 
 Hoisting

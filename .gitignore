@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.eslintcache
+.next
+.vscode
+.idea
+log
+node_modules
+yarn-error.log
