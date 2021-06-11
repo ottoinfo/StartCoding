@@ -12,6 +12,19 @@ BE ( back end )
 Full Stack ( includes both FE & BE )
 SSR ( server side rendering )
 CSR ( client side rendering )
+LTS - Long Term Support
+CDN - Content Delivery Network
+
+
+
+
+# Other
+
+open source 
+
+license
+
+
 
 
 Stand Up/Scrum ( usually a quick 10 minute meeting for updating your work progress )
