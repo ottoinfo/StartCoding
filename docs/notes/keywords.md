@@ -14,6 +14,8 @@ SSR ( server side rendering )
 CSR ( client side rendering )
 LTS - Long Term Support
 CDN - Content Delivery Network
+SSH - Secure Shell or Secure Socket Shell
+FTP - File Transfer Protocol
 
 
 

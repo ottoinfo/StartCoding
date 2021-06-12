@@ -19,8 +19,7 @@ const a = employee[1].name
 const employeeName2 = employee[1].name
 
 ... 600 lines code ...
-
-
+//typing nodoidjfosdjdsjw...oh shit ok
 console.log(a, employeeName2) // return steve, steve
 ```
 
@@ -58,4 +57,21 @@ let thisIsAReallyLongVariable; // GOOD
 let firstName =  'Mike';
 let firstname = 'sam';
 let FIRSTNAME = 'doug';
+```
+
+# Comparing Variables
+```javascript
+let firstName =  'Mike';
+let firstname = 'sam';
+let FIRSTNAME = 'doug';
+
+console.log(firstName === firstname) // false
+console.log(firstName === FIRSTNAME) // false
+console.log(firstName === firstName) // true
+
+let value1 = 3
+let value2 = 9
+console.log(value1, value2)
+console.log( value1 === value2) // false
+
 ```
