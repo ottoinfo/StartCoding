@@ -25,7 +25,7 @@ You can also look at alternative services:
 
 [Setup SSH Keys for GITHUB](https://docs.github.com/en/enterprise-server@3.0/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-You can also go to [Terminal > SSH Keys](/notes/ssh)
+You can also go to [Terminal > SSH Keys](/notes/ssh?id=how-to-generate-a-key)
 
 Generally you should just be able to create a key
 

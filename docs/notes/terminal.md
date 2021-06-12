@@ -101,11 +101,83 @@ History and limit to a NUMBER, say last 10 commands
 
 ### Alias
 
-
-This is creating our configuration for terminal
+We can think of them as shortcuts for common commands we use regularly. We need to create our configuration FILE for terminal.
 
 `touch .bashrc`
 
+Lets add our FIRST alias
+
+```bash
+alias l='ls -lah'
+```
+
+We know need to reload our changes
+
+`source ~/.bashrc`
+
+### Your Prompt
+
+`code .bashrc`
+
+```bash
+# colors from http://wiki.archlinux.org/index.php/Color_Bash_Prompt
+# reset colors
+NO_COLOR='\e[0m'
+# regular colors
+MAGENTA='\e[0;35m'
+ECYAN='\e[1;36m'
+GREEN='\e[0;32m'
+
+PS1="\[$MAGENTA\]\n\u\[$NO_COLOR\] -> \[$ECYAN\]\w\[$GREEN\]  🔥 \[$NO_COLOR\] \n ↳  "
+```
+
+# Final Results of your `.bashrc`
+
+```bash
+# VARIABLES
+# Shut off Catalina zshell message -> https://support.apple.com/kb/HT208050
+export BASH_SILENCE_DEPRECATION_WARNING=1
+export CLICOLOR=1
+export LSCOLORS=gxgxhxDxfxhxhxhxhxgxgx
+export EDITOR="code -w"
+
+# colors from http://wiki.archlinux.org/index.php/Color_Bash_Prompt
+# reset colors
+NO_COLOR='\e[0m'
+# regular colors
+MAGENTA='\e[0;35m'
+ECYAN='\e[1;36m'
+GREEN='\e[0;32m'
+
+PS1="\[$MAGENTA\]\n\u\[$NO_COLOR\] -> \[$ECYAN\]\w\[$GREEN\]  🔥 \[$NO_COLOR\] \n ↳  "
+
+# Shortcuts
+alias edit='$EDITOR ~/.bash_aliases'
+alias d='cd ~/Desktop'
+alias sshconf='$EDITOR ~/.ssh/config'
+
+# Shell
+alias ..='cd ..'
+alias l='ls -lah'
+alias c='clear'
+alias h='history'
+
+# Utility
+alias reload='source ~/.bashrc'
+```
+
+### We still may need to make sure our TERMINAL always uses our FILE `.bashrc`
+
+Let create a PROFILE
+
+`code ./bash_profile`
+
+```bash
+if [ -f ~/.bashrc ];
+then
+	source ~/.bashrc
+fi
+```
 
 ### Setup
 
